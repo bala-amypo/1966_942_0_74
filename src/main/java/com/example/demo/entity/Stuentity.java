@@ -14,7 +14,7 @@ public class Stuentity{
     private String email;
     private float cgpa;
 
-    public Stuentity(int id, String name, String email, float cgpa) {
+    public Stuentity(Long id, String name, String email, float cgpa) {
         this.id = id;
         this.name = name;
         this.email = email;
